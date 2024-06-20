@@ -1,0 +1,73 @@
+/* 各區背景圖 */
+#home{
+    background-image: url("../images/封面.png");
+}
+/* #about{
+    background-image: url("../images/履歷表.png");
+}
+#news{
+    background-image: url("../images/p2.jpg");
+}
+#service{
+    background-image: url("../images/p3.jpg");
+}
+#contact{
+    background-image: url("../images/p4.jpg");
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 將視窗的寬高設定為滿版（100%） */
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* 各區共同背景相關設定 */
+section{
+    height: 100%;
+    /* 不重覆 */
+    background-repeat: no-repeat;
+    /* 等比例縮放圖片大小 */
+    background-size: cover;
+    /* 圖片從正中央往外擴 */
+    background-position: center center;
+    /* 內容開始位置 */
+    padding-top: 150px;
+}
+
+/* 各區的文字範圍 */
+.txt-bg{
+    background-color:rgba(255,255,255,.6);
+    border-radius: 100px;
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    /* margin: auto; */
+}
+.txt-bg h2{
+    text-align: center;
+}
+.txt-bg i{
+    color: blue;
+}
+#about img{
+width: 100%;
+}
+#PROJECT1 img{
+width: 100%;
+}
+#PROJECT2{
+width: 100%;
+}
+#PROJECT3{
+width: 100%;
+    }
+    {
+width: 100%;
+    }
+
+        
